@@ -1,4 +1,4 @@
-# Changelog for `haskell-demo`
+# Changelog for `demo1`
 
 All notable changes to this project will be documented in this file.
 
