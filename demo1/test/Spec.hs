@@ -10,5 +10,5 @@ prop_isAllDigit val = if isAllDigits val || val == ""
 
 main :: IO ()
 main = do
-  quickCheck prop_isAllDigit
+  quickCheckWith stdArgs { maxSuccess = 1000 } prop_isAllDigit
   putStrLn "Done"
